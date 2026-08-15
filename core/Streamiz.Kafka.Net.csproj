@@ -12,17 +12,17 @@
     <Description>.NET Stream Processing Library for Apache Kafka</Description>
     <Copyright>Copyright 2020</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/LGouellec/streamiz</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/LGouellec/streamiz</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/stanb-semperis/streamiz</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stanb-semperis/streamiz</RepositoryUrl>
     <PackageTags>kafka kafka-streams streamiz event-streaming</PackageTags>
-    <PackageReleaseNotes>https://github.com/LGouellec/streamiz/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>Semperis patch on 1.8.1: fix StoreChangelogReader infinite RESTORING when changelog records arrive past the snapshotted end offset (align with Apache Kafka Streams buffer handling).</PackageReleaseNotes>
     <PackageIconUrl>https://raw.githubusercontent.com/LGouellec/streamiz/master/resources/logo-kafka-stream-net.png</PackageIconUrl>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\key.snk</AssemblyOriginatorKeyFile>
-    <Version>1.8.1</Version>
-    <PackageVersion>1.8.1</PackageVersion>
-    <AssemblyVersion>1.8.1</AssemblyVersion>
-    <FileVersion>1.8.1</FileVersion>
+    <Version>1.8.1.1</Version>
+    <PackageVersion>1.8.1.1-semperis.1</PackageVersion>
+    <AssemblyVersion>1.8.1.1</AssemblyVersion>
+    <FileVersion>1.8.1.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
